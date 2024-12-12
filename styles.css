@@ -1,0 +1,139 @@
+.inline-block{
+    display: inline-block;
+    padding: 15px;
+    color: #ffffff;
+}
+
+nav{
+    background-color: 
+#131D26;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.Top{
+  text-align: center;
+  margin-left: 270px;
+  margin-right: 270px;
+  margin-bottom: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.Header{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.logo{
+  height: 30px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#googleMap{
+  text-align: center;
+  height: 800px;
+}
+
+body{
+  background-color: #59331D;
+}
+.TextChunk{
+  background-color: #D98555;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-style: solid;
+}
+.BottomSection{
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.SocialMedia{
+  float: right;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Copyright{
+ 
+  margin-top: 15px;
+  float: left;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 1000px) {
+    .TextChunk{
+        margin: auto;
+    }
+    .Top{
+        margin: auto;
+    }
+
+
+    iframe{
+        width: 400px;
+        height: 400px;
+        margin-top: 20px;
+    }
+    .Footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        float: none;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+  .TextChunk{
+      margin: auto;
+  }
+  .Top{
+      margin: auto;
+  }
+
+  .logo{
+   display: none;
+  }
+
+  iframe{
+      width: 400px;
+      height: 400px;
+      margin-top: 20px;
+  }
+  .Footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    float: none;
+    
+}
+
+  body{
+    font-size: 12px;
+  }
+  }
+}
+@media (orientation: landscape) {
+  body {
+    display: flex;
+    flex-direction: row;
+
+  }
+}
